@@ -6,12 +6,10 @@
  */
 int main(void)
 {
-	int n = 0;
+	int n;
 
-	do {
+	for (n = '0'; n <= '9'; n++)
 		putchar(n);
-
-	} while (n < 10);
 
 	putchar('\n');
 	return (0);
