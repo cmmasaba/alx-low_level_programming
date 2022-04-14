@@ -8,6 +8,7 @@
  */
 
 int main(void)
+{
 	long int a, b;
 
 	a = 612852475143;
