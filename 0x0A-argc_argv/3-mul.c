@@ -10,7 +10,7 @@
  * Return: 0 Always successful
  */
 
-int main(argc, char **argv)
+int main(int argc, char **argv)
 {
 	if (argc != 3)
 	{
