@@ -9,9 +9,9 @@
  * Return: 0 Always successful
  */
 
-int main(argc, char **argv)
+int main(int argc, char **argv)
 {
-	int cents, ncoins;
+	int cents, ncoins = 0;
 
 	if (argc > 2 || argc == 0)
 	{
