@@ -10,13 +10,13 @@
  * Return: 0 Always successful
  */
 
-int main(argc, char **argv)
+int main(int argc, char **argv)
 {
 	int a, b sum = 0;
 
 	for (a = 1; a < argc; a++)
 	{
-		for (b = 0; argv[a][b] != '\0'; j++)
+		for (b = 0; argv[a][b] != '\0'; b++)
 		{
 			if (!isdigit(argv[a][b]))
 			{
