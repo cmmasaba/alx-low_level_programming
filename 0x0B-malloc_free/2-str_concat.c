@@ -9,10 +9,10 @@
  * NULL on failure
  */
 
-str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
-	char *s;
-	int i, j, k, l;
+	char *strout;
+	unsigned int i, j, k, limit;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -25,20 +25,20 @@ str_concat(char *s1, char *s2)
 	for (j = 0; s2[j] != '\0'; j++)
 		;
 
-	s = malloc(sizeof(char) * (i + j + 1));
+	strout = malloc(sizeof(char) * (i + j + 1));
 
-	if (s == NULL)
+	if (strout == NULL)
 	{
-		free(s);
+		free(strout);
 		return (NULL);
 	}
 
 	for (k = 0; k < i; k++)
-		s[k] = s1[k];
-	l = j;
+		strout[k] = s1[k];
 
-	for (j = 0; j <= l; k++, j++)
-		s[k] = s2[j];
+	limit = j;
+	for (j = 0; j <= limit; k++, j++)
+		strout[k] = s2[j];
 
-	return (s);
+	return (strout);
 }
