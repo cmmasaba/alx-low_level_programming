@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * freegrid - frees an array
+ * ch_free_grid - frees an array
  * @grid: array
  * @height: size of array rows
  *
  */
 
-void freegrid(char **grid, int height)
+void ch_free_grid(char **grid, unsigned int height)
 {
 	if (grid != NULL && height != 0)
 	{
@@ -29,41 +29,41 @@ void freegrid(char **grid, int height)
 
 char **strtow(char *str)
 {
-	char **s;
-	int height, i, j, k, l;
+	char **aout;
+	unsigned int c, height, i, j, a1;
 
 	if (str == NULL || *str == '\0')
 		return (NULL);
-	for (i = height = 0; str[i] != '\0'; i++)
-		if (str[i] != ' ' && (str[i + 1] == ' ' || str[i + 1] == '\0'))
+	for (c = height = 0; str[c] != '\0'; c++)
+		if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			height++;
-	s = malloc((height + 1) * sizeof(char *));
-	if (s == NULL || height == 0)
+	aout = malloc((height + 1) * sizeof(char *));
+	if (aout == NULL || height == 0)
 	{
-		free(s);
+		free(aout);
 		return (NULL);
 	}
-	for (j = l = 0; j < height; j++)
+	for (i = a1 = 0; i < height; i++)
 	{
-		for (i = l; str[i] != '\0'; i++)
+		for (c = a1; str[c] != '\0'; c++)
 		{
-			if (str[i] == ' ')
-				l++;
-			if (str[i] != ' ' && (str[i + 1] == ' ' || str[i + 1] == '\0'))
+			if (str[c] == ' ')
+				a1++;
+			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
-				s[i] = malloc((i - l + 2) * sizeof(char));
-				if (s[i] == NULL)
+				aout[i] = malloc((c - a1 + 2) * sizeof(char));
+				if (aout[i] == NULL)
 				{
-					freegrid(s, j);
+					ch_free_grid(aout, i);
 					return (NULL);
 				}
 				break;
 			}
 		}
-		for (k = 0; l <= i; l++, k++)
-			s[j][k] = str[l];
-		s[j][k] = '\0';
+		for (j = 0; a1 <= c; a1++, j++)
+			aout[i][j] = str[a1];
+		aout[i][j] = '\0';
 	}
-	s[j] = NULL;
-	return (s);
+	aout[i] = NULL;
+	return (aout);
 }
