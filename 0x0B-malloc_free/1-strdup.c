@@ -10,22 +10,22 @@
 
 char *_strdup(char *str)
 {
-	char *s;
-	int i, j;
+	char *strout;
+	unsigned int i, j;
 
-	for (i = 0; str[i] != "\0"; i++)
+	if (str == NULL)
+		return (NULL);
+
+	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	s = (char *)malloc(sizeof(char) * (i + 1));
+	strout = (char *)malloc(sizeof(char) * (i + 1));
 
-	if (s == NULL)
-	{
+	if (strout == NULL)
 		return (NULL);
-	}
 
 	for (j = 0; j <= i; j++)
-	{
-		s[j] = str[j];
-	}
-	return (s);
+		strout[j] = str[j];
+
+	return (strout);
 }
