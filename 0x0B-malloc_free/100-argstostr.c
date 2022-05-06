@@ -43,7 +43,7 @@ char *argstostr(int ac, char **av)
 			l++;
 			k = 0;
 		}
-		if (l < c - 1)
+		if (l < i - 1)
 			s[l] = av[j][k];
 	}
 	s[l] = '\0';
