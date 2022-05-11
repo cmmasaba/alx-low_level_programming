@@ -13,36 +13,38 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, j, k, length;
-	char *str;
+	unsigned int i, j, k, length;
+	char *s;
 
 	if (s1 == '\0')
-		s1 = " ";
+		s1 = "";
 	if (s2 == '\0')
-		s2 = " ";
+		s2 = "";
 
 	for (i = 0; s1[i] != '\0'; i++)
 		;
 	for (j = 0; s2[j] != '\0'; j++)
 		;
+
 	if (n > j)
 		n = j;
 
 	length = i + n + 1;
 
-	str = malloc(length);
-	if (str == NULL)
+	s = malloc(length);
+
+	if (s == NULL)
 		return (0);
 
 	for (k = 0; k < length - 1; k++)
 	{
 		if (k < i)
-			str[k] = s1[k];
+			s[k] = s1[k];
 		else
-			str[k] = s2[k - i];
+			s[k] = s2[k - i];
 	}
 
-	str[k] = '\0';
+	s[k] = '\0';
 
-	return (str);
+	return (s);
 }
