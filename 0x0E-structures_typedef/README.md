@@ -20,7 +20,7 @@ The following files are contained in this project, and a brief description of ea
 |5-free_dog.c| Frees the struct `dog` created above|
 
 ###### Contributors ######
-Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
 
 ###### Copyright ######
 © Collins Mmasaba 2022
