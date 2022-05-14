@@ -14,3 +14,10 @@ The following files are contained in this project and a brief description
 |main.h| used together with `libmy.a` to create a static library|
 |libmy.a| creates the static library `libmy.a` containing all the functions provided|
 |create_static_lib.sh| a script that creates a static library called `liball.a` from all the .c files that are in the current directory|
+
+###### Contributors ######
+Collins Mmasaba 
+`email:` <collins.mmasaba@azubiafrica.org>
+
+###### Copyright ######
+© Collins Mmasaba 2022
