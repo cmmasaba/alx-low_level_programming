@@ -1,10 +1,22 @@
-Recursion
-0 - Write a function that prints a string, followed by a new line
-1 - Write a function that prints a string in reverse
-2 - Write a function that returns the length of a string
-3 - Write a function that returns the factorial of a given number
-4 - Write a function that returns the value of x raised to the power of y
-5 - Write a function that returns the natural square root of a number
-6 - Write a function that returns 1 if the input integer is a prime number, otherwise return 0
-100 - Write a function that returns 1 if a string is a palindrome and 0 if not
-101 - Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0
+# C - Recursion
+A project I did while learning full stack software engineering at ALX School. Concepts covered in this project are `recursion` in C programming language
+
+## Technologies
+Technoloies I used for this project are:
+- Environment: `Ubuntu 20.04 LTS`
+- Standard: `C90`
+- Compiler: `gcc` 4.8.4
+
+## Files
+The following files are contained in this project and a brief description
+|**File name**| **Brief Description**|
+|:-------------|----------------------|
+|0-puts_recursion.c| a function that prints a string|
+|1-print_rev_recursion.c| a function that prints a string in reverse|
+|2-strlen_recursion.c| a function that returns the length of a string|
+|3-factorial.c| a function that returns the factorial of a given number|
+|4-pow_recursion.c| a function that returns the value of `x` raised to the power of `y`|
+|5-sqrt_recursion.c| a function that returns the natural square root of a number|
+|6-is_prime_number.c| a function that checks if a digit is a prime number|
+|100-is_palindrome.c| a function that checks if a string is a palindrome|
+|101-wildcmp.c| a function that checks if two strings can be considered identical|
