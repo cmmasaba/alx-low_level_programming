@@ -20,7 +20,7 @@ The following files are contained in this project and a brief description
 |101-strtow.c| a function that splits a string into words|
 
 ###### Contributors ######
-Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
 
 ###### Copyright ######
 © Collins Mmasaba 2022
