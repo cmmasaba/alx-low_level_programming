@@ -18,3 +18,9 @@ The following files are contained in this project, and a brief description of ea
 |2-print_dog.c| Prints a struct `dog`|
 |4-new_dog.c| Creates a new struct `dog`|
 |5-free_dog.c| Frees the struct `dog` created above|
+
+###### Contributors ######
+Collins Mmasaba [email][collins.mmasaba@azubiafrica.org]
+
+###### Copyright ######
+℅ Collins Mmasaba 2022
