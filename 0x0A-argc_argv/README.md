@@ -17,3 +17,9 @@ The following files are contained in this project and a brief description
 |3-mul.c| a program that multiplies two numbers|
 |4-add.c| a program that adds positive numbers|
 |100-change.c| a program that prints the minimum number of coins to make change for an amount of money|
+
+###### Contributors ######
+Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+
+###### Copyright ######
+© Collins Mmasaba 2022
