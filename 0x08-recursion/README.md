@@ -20,3 +20,9 @@ The following files are contained in this project and a brief description
 |6-is_prime_number.c| a function that checks if a digit is a prime number|
 |100-is_palindrome.c| a function that checks if a string is a palindrome|
 |101-wildcmp.c| a function that checks if two strings can be considered identical|
+
+###### Contributors ######
+Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
+
+###### Copyright ######
+© Collins Mmasaba 2022
