@@ -19,7 +19,7 @@ The following files are contained in this project and a brief description
 |100-change.c| a program that prints the minimum number of coins to make change for an amount of money|
 
 ###### Contributors ######
-Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
 
 ###### Copyright ######
 © Collins Mmasaba 2022
