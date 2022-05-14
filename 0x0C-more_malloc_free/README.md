@@ -19,7 +19,7 @@ The following files are contained in this project and a brief description
 |101-mul.c| a program that multiplies two positive numbers|
 
 ###### Contributors ######
-Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
 
 ###### Copyright ######
 © Collins Mmasaba 2022
