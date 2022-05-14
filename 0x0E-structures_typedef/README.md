@@ -14,7 +14,7 @@ The following files are contained in this project, and a brief description of ea
 |File name| Brief Description|
 |:---------:|------------------|
 |dog.h      | Define a new type `struct dog`|
-|1-init_dog.c| Initializes a variable of type struct dog|
+|1-init_dog.c| Initializes a variable of type `struct dog`|
 |2-print_dog.c| Prints a struct `dog`|
 |4-new_dog.c| Creates a new struct `dog`|
-|5-free_dog| Frees the previous struct `dog`|
+|5-free_dog| Frees the struct `dog` created above|
