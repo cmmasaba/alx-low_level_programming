@@ -18,3 +18,9 @@ The following files are contained in this project and a brief description
 |4-free_grid.c| a function that frees a 2 dimensional grid previously created by your alloc_grid function|
 |100-argstostr.c| a function that concatenates all the arguments of your program|
 |101-strtow.c| a function that splits a string into words|
+
+###### Contributors ######
+Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+
+###### Copyright ######
+© Collins Mmasaba 2022
