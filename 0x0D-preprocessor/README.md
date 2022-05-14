@@ -16,3 +16,9 @@ The following files are contained in this project and a brief description
 |2-main.c| prints the name of the file it was compiled from|
 |3-function_like_macro.h| function-like macro `ABS(x)` that computes the absolute value of a number `x`|
 |4-sum.h| a function-like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`|
+
+###### Contributors ######
+Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+
+###### Copyright ######
+© Collins Mmasaba 2022
