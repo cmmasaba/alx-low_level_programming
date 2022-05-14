@@ -17,3 +17,9 @@ The following files are contained in this project and a brief description
 |3-array_range.c| a function that creates an array of integers|
 |100-realloc.c| a function that reallocates a memory block using `malloc` and `free`|
 |101-mul.c| a program that multiplies two positive numbers|
+
+###### Contributors ######
+Collins Mmasaba [email](collins.mmasaba@azubiafrica.org)
+
+###### Copyright ######
+© Collins Mmasaba 2022
