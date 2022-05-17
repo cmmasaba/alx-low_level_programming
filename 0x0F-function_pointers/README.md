@@ -11,7 +11,7 @@ Technoloies I used for this project are:
 The following files are contained in this project and a brief description
 |**File name**| **Brief Description**|
 |:-------------|----------------------|
-|main.h| header file containing function declarations|
+|function_pointers.h| header file containing function declarations|
 |0-print_name.c| a function that prints a name|
 |1-array_iterator.c| a function that executes given function as a parameter on each element of the array|
 |2-int_index.c| a function that searches for an integer|
