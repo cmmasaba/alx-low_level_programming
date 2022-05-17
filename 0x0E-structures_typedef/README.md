@@ -6,7 +6,7 @@ Concepts covered here are **Structures** and **Typedef** in C programming langua
 I used the following technologies for this project:
 - Environment: `Ubuntu 20.04 LTS`
 - Standard: `C90`
-- Compiler: `gcc` 4.8.4
+- Compiler: `gcc 9.4.0`
 
 ## Files
 The following files are contained in this project, and a brief description of each
