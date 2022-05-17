@@ -19,6 +19,7 @@ The following files are contained in this project and a brief description
 |3-main.c| driver function for a program that performs simple operations|
 |3-op_functions.c| helper function for the program that performs operations|
 |3-get_op_func.c| helper function for the program that performs operations|
+|100-main_opcodes.c| a program that prints opcodes for its own main function|
 
 ###### Contributors ######
 Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
