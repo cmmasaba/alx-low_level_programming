@@ -22,6 +22,11 @@ The following files are contained in this project and a brief description
 |7-get_nodeint.c| returns the nth node of a `listint_t` linked list|
 |8-sum_listint.c| returns the sum of all the data `(n)` of a `listint_t` linked list|
 |9-insert_nodeint.c| inserts a new node at a given position|
+|10-delete_nodeint.c| deletes the node at index `index` of a `listint_t` linked list|
+|100-reverse_listint.c| reverses a `listint_t` linked list|
+|101-print_listint_safe.c| prints a `listint_t` linked list|
+|102-free_listint_safe.c| frees a `listint_t` list|
+|103-find_loop.c| finds the loop in a linked list|
 
 ###### Contributors ######
 Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
