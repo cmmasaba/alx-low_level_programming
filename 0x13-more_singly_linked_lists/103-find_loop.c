@@ -9,7 +9,7 @@
 
 listint_t *find_listint_loop(listint_t *head)
 {
-	listint *temp1, *temp2;
+	listint_t *temp1, *temp2;
 
 	temp1 = temp2 = head;
 	while (head && temp1 && temp1->next)
@@ -23,8 +23,8 @@ listint_t *find_listint_loop(listint_t *head)
 			while (1)
 			{
 				temp1 = temp2;
-				while (temp1->next != head &&
-						temp1->next != temp2)
+				while
+				(temp1->next != head && temp1->next != temp2)
 					temp1 = temp1->next;
 				if (temp1->next == head)
 					break;
