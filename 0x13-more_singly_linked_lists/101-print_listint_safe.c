@@ -50,7 +50,7 @@ size_t print_listint_safe(const listint_t *head)
 			temp2 = temp2->next;
 			if (head == temp2->ptr)
 			{
-				printf("-> [%p] %d\m", head, head->n);
+				printf("-> [%p] %d\m", (void *)head, head->n);
 				free_listptr(&h);
 				return (n);
 			}
