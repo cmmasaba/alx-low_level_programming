@@ -21,7 +21,7 @@ size_t free_listint_safe(listint_t **h)
 		temp1 = malloc(sizeof(listptr));
 		if (temp1 == NULL)
 			exit(98);
-		temp->ptr = (void *)*h;
+		temp1->ptr = (void *)*h;
 		temp1->next = hp;
 		hp = temp1;
 		temp2 = hp;
