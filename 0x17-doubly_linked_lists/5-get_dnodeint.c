@@ -4,14 +4,14 @@
  * @head: the head of the linked list
  * @index: the index of the node
  *
- * Return: the node at that index of 0 if it doesnt exit
+ * Return: the node at that index of NULL if it doesnt exit
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	int i;
 
 	if (head == NULL)
-		return (0);
+		return (NULL);
 	while (head->prev != NULL)
 		head = head->prev;
 	for (i = 0; head != NULL; ++i)
