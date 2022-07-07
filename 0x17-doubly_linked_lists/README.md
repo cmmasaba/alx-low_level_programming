@@ -20,9 +20,9 @@ The following files are contained in this project and a brief description
 |6-sum_dlistint.c| returns the sum of all the data (n) of a `dlistint_t` linked list|
 |7-insert_dnodeint.c| inserts a new node at a given position|
 |8-delete_dnodeint.c| deletes the node at index `index` of a `dlistint_t` linked list|
-|100-password| password for [crackme][https://github.com/holbertonschool/0x17.c]|
+|100-password| password for [crackme](https://github.com/holbertonschool/0x17.c)|
 |102-result| largest palindrome made from the product of two 3-digit numbers|
-|103-keygen.c| keygen for [crackme5][https://github.com/holbertonschool/0x17.c]|
+|103-keygen.c| keygen for [crackme5](https://github.com/holbertonschool/0x17.c)|
 
 ###### Contributors ######
 Collins Mmasaba `email:`<collins.mmasaba@azubiafrica.org>
